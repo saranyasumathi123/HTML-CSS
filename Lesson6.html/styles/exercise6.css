@@ -1,0 +1,14 @@
+.m1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+.m2{
+    margin-top:0px;
+    font-size:25px;
+}
+span{
+    text-decoration:underline;
+}
+span:hover{
+     cursor:pointer;
+}

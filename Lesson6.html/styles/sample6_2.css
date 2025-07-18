@@ -1,0 +1,47 @@
+p{
+     font-family:roboto; 
+     text-align:left; 
+     margin-left:2px;
+    }
+     .tit{
+        font-size:18px;
+        font-weight:bold;
+        width:300px;
+        line-height:25px;
+        margin-bottom:4px;
+     }
+     .view{
+        font-size: 14px;
+        color:rgb(96, 96, 96);
+        margin-top:2px;
+        margin-bottom:15px;
+    }
+    .auth{
+        font-size:14px;
+        color:rgb(96, 96, 96);
+        margin-top:0px;
+        margin-bottom:15px;
+    }
+    .txt{
+        font-size:14px;
+        color:rgb(96, 96, 96);
+        margin-top:0px; 
+        width:275px;
+        line-height: 20px;
+        margin-bottom:100px;
+    }
+    .fl{
+       margin-bottom:50px;
+       background-color:rgb(227, 65, 64);
+       text-align:center;
+       color:white;
+       font-size: 14px; 
+       padding-top: 20px;
+       padding-bottom: 20px;
+    }
+    .sh{
+       cursor:pointer;  
+    }
+    .sh:hover{
+       text-decoration: underline; 
+    }    
