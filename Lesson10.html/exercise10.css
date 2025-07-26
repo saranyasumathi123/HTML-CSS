@@ -1,0 +1,173 @@
+           p{
+                margin-top:0;
+                margin-bottom:0;
+                font-family:Arial;
+            }
+            .profile{
+                padding-top:10px;
+                width:400px;
+                height:75px;
+                box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+            }
+            .picture{
+                width:60px;
+                height:60px;
+                border-radius:75px;
+            }
+            .pp{
+               display:inline-block;
+               vertical-align:middle;
+            }
+            .pname{
+               font-weight:bold;
+               font-size:17px;
+               margin-bottom:3px;
+            }
+            .dname{
+               font-size:17px;
+               color:gray;
+               margin-bottom:3px;
+            }
+            .pop{
+               font-size:15px;
+               color:gray;
+               margin-bottom:3px;
+            }
+            .btn{
+              font-weight:500px;
+                font-size:14px;
+                color:white;
+                background-color:rgb(6, 95, 212);
+                border:none;
+                padding-top:7px;
+                padding-bottom:7px;
+                padding-left:10px;
+                padding-right:10px;
+                border-radius:4px;
+            }
+            .button{
+                display:inline-block;
+                vertical-align:middle;
+                margin-left:150px;
+            }
+            .names{
+                display:inline-block;
+                vertical-align:middle;
+                text-align: left;
+            }
+            .eg2{
+                margin-top: 20px;
+                box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+                display: inline-block;
+            }
+            .pro{
+                padding-top:10px;
+                width:500px;
+                height:75px;
+            }
+            .buttons{
+                margin-left:110px;
+                display:inline-block;
+                vertical-align:middle;
+            }
+            .buttons1{
+                margin-left:165px;
+                display:inline-block;
+                vertical-align:middle;
+            }
+            .eg3{
+              box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+              display:inline-block;
+              margin-top: 20px;
+              margin-bottom: 10px;
+            }
+            .video{
+              width:470px;
+              padding-top:10px;
+              height:120px;
+            }
+            .pictures{
+              width:200px;
+              object-fit: cover;
+              height:110px;
+            }
+            .names1{
+               display:inline-block;
+               vertical-align:middle;
+               text-align: left;
+            }
+            .names2{
+               display:inline-block;
+               vertical-align:middle;
+               text-align: left;
+            }
+            .names3{
+               display:inline-block;
+               vertical-align:middle;
+               text-align: left;
+            }
+            .pname1{
+              width: 250px;
+              font-weight:bold;
+              margin-bottom:10px;
+              line-height:20px;
+              font-size:16px;
+            }
+            .dname1,
+            .pop1{
+              font-size:14px;
+              color:gray;
+              margin-bottom:3px;
+            }
+            .eg4{
+              width:700px;
+              height:400px;
+              padding-top: 20px;
+            }
+            .picture1{
+              width:150px;
+              height:200px;
+              display:inline-block;
+              object-fit:cover;
+            }
+            .pp1{
+              display:inline-block;
+              box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+              margin-right:15px;
+              text-align: left;
+              vertical-align: top;
+            }
+            .pname2{
+              font-weight:bold;
+              font-size:14px;
+              margin-bottom:5px;
+            }
+            .dname2{
+              font-size:14px;
+              color:gray;
+              
+            }
+            .icon{
+              display:inline-block;
+              width:30px;
+              border-radius:40px;
+            }
+            .pp14{
+              display:inline-block;
+              vertical-align:top;
+              margin-top: 5px;
+            }
+            .pp13{
+              margin-left:8px;
+              margin-bottom: 8px;
+              margin-right:8px;
+            }
+            .pp131{
+              margin-left:8px;
+              margin-bottom: 11px;
+              margin-right:8px;
+            }
+            .picture11{
+              width: 165px;
+              height:200px;
+            }
