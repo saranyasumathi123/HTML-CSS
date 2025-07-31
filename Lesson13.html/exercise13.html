@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <title>Nested Flexbox</title>
+    <style>
+       p{
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+       }
+       .icon{
+            width:60px;
+            height:60px;
+            border-radius:75px;
+       }
+       .profile{
+            padding-left: 10px;
+            padding-right: 10px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height:100px;
+            width:550px; 
+       }
+        .pname{
+            font-weight:bold;
+            font-size:16px;
+            margin-bottom:2px;
+            display: flex;
+        } 
+        .dname{
+            font-size:14px;
+            color:black;
+            font-weight: 700;
+            margin-bottom:2px;
+        } 
+        .pop{
+             font-size:13px;
+             color:gray;
+             margin-bottom:2px;
+             margin-right:200px;
+             width:270px;
+        }  
+        .pp{
+            box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+            height:120px;
+            width:400px;
+            margin-bottom: 30px;
+        }
+        .time{
+            color:gray;
+            font-size: 12px;
+            margin-left: 80px;
+        }
+        .inbox{
+            margin-top: 30px;
+            padding-top: 8px;
+            padding-left: 15px;
+            color:gray;
+            font-size:15px;
+        }
+        .info{
+            display: flex;
+        }
+       .example{
+            box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+       }
+       .time1{
+            color:gray;
+            font-size: 12px;
+            margin-left: 180px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>13.Nested Flexbox</h1>
+    </center> 
+    <div style="display:flex;margin-bottom: 30px;">
+        <div style="background: lightpink;width:100px;height:80px;display:flex;flex-direction: row;justify-content: center;align-items: center;">
+        <div style="
+        background-color: black;
+        color:white;
+        ">item1</div>
+        </div>
+        <div style="background: lightblue;width:200px;height:80px;"></div>
+    </div>  
+    <div style="display:flex;">
+        <div style="background: lightpink;width:100px;height:80px;"></div>
+        <div style="background: lightblue;
+        width:200px;
+        ">
+        <div>row1</div>
+        <div style="display:flex;
+        flex-direction: row;
+        justify-content: space-between;">
+        <div style="background-color: black;
+        color:white;
+        ">row2</div>
+        <div style="background-color: black;
+        color:white;
+       ">row2</div>
+        </div>
+        </div>
+    </div> 
+    <div class="pp">
+    <div class="inbox">ALL INBOXES</div>
+    <div class="profile">
+    <img class="icon"src="images/R.jpg">
+    <div>
+    <div class="info"><p class="pname">Chewy Promotions</p> <p class="time">4:58 PM</p></div>
+    <p class="dname">Biggest sales of the year!</p>
+    <p class="pop">Hey there! We're writing to tell you about our...</p>
+    </div>
+    </div>
+    <div class="example">
+    <div class="pp1">
+    <div class="inbox">ALL INBOXES</div>
+    <div class="profile">
+    <img class="icon"src="images/R.jpg">
+    <div>
+    <div class="info"><p class="pname">Chewy Promotions</p> <p class="time">4:58 PM</p></div>
+    <p class="dname">Biggest sales of the year!</p>
+    <p class="pop">Hey there! We're writing to tell you about our...</p>
+    </div>
+    </div>
+    <div class="pp1">
+    <div class="profile">
+    <img class="icon" src="images/JQGpuF3.jpg">
+    <div>
+    <div class="info"><p class="pname">Chewy Promotions</p> <p class="time">12:32 PM</p></div>
+    <p class="dname">Your Best Buy eReceipt</p>
+    <p class="pop">Thank you for shopping at Best Buy,here is...</p>
+    </div>
+    </div>
+    <div class="pp1">
+    <div class="profile">
+    <img class="icon" src="images/OIP.webp">
+    <div>
+    <div class="info"><p class="pname">Netflix</p> <p class="time1">9:00 AM</p></div>
+    <p class="dname">Here's what's coming soon to Netflix</p>
+    <p class="pop">Brand new movies and shows,old favorites...</p>
+    </div>
+    </div>
+    </div>
+</body> 
