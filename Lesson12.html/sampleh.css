@@ -1,0 +1,21 @@
+.header{
+   height:55px;
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+}
+.left-section{
+   background-color: brown;
+   width:150px;
+}
+.middle-section{
+   margin-left:70px;
+   margin-right:35px;
+   background-color: yellow;
+   flex:1;
+   max-width:500px;
+}
+.right-section{
+   background-color:blue;
+   width:200px;
+}

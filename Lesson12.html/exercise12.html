@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+    <title>flexbox practice</title>
+    <link rel="icon" href="images/channel-6.jpeg">
+    <style>
+        p{
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .flexeg{
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(200, 195, 195);
+            height:100px;
+            width:500px;
+            margin-top: 30px; 
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 7px;
+            margin-bottom: 30px;
+        }
+        .home{
+            margin-top: 8px;
+            margin-bottom: 8px;
+            display:flex;
+            justify-content: space-between;
+            font-size:20px;
+            padding-left: 10px;
+        }
+        .notify{
+            margin-top: 8px;
+            margin-bottom: 8px;
+            display:flex;
+            justify-content:space-between;
+             font-size:20px;
+             padding-left: 10px;
+        }
+        .msg{
+            margin-top: 8px;
+            margin-bottom: 8px;
+           display:flex;
+           justify-content: space-between; 
+            padding-left: 10px;
+            font-size:20px;
+        }
+        .btn{
+            background-color: rgb(17, 137, 236);
+            border:none;
+            border-radius: 12px;
+            color:white;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-right: 10px;;
+        }
+        .icon{
+            width:60px;
+            height:60px;
+            border-radius:75px;
+        }
+        .but{
+            margin-top:5px;
+            font-weight:500px;
+            font-size:12px;
+            color:white;
+            background-color:rgb(6, 95, 212);
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:15px;
+            padding-right:15px;
+            border-radius:4px;
+        }  
+        .profile{
+            padding-left: 20px;
+            padding-right: 20px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height:100px;
+            width:400px;    
+        } 
+        .pname{
+            font-weight:bold;
+            font-size:16px;
+            margin-bottom:2px;
+        } 
+        .dname{
+            font-size:17px;
+            color:gray;
+            margin-bottom:2px;
+        } 
+        .pop{
+             font-size:15px;
+             color:gray;
+             margin-bottom:2px;
+             margin-right:200px;
+        }  
+        .pp{
+            box-shadow:0px 0px 5px rgba(8, 0, 0, 0.3);
+            height:300px;
+            width:450px;
+            margin-bottom: 30px;
+        } 
+        .header{
+            background-color: rgb(94, 27, 157);
+            display:flex;
+            justify-content: row;
+            justify-content: space-between;
+            width:800px;
+            height:60px;
+            align-items: center;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .name{
+            color:rgb(224, 221, 221);
+        } 
+        .bar{
+            width:350px;
+            border-radius: 20px;
+            padding-top: 5px;
+            padding-left: 10px;
+            padding-bottom: 5px;
+            font-size: 15px;
+            border:none;
+        }
+        .down{
+           border-color: rgb(224, 221, 221);
+           color:rgb(224, 221, 221);
+           background-color: rgb(94, 27, 157);
+           border-style: solid;
+           border-width: 1px;
+           padding-top: 5px;
+           padding-bottom: 5px;
+           border-radius: 2px;
+        }                               
+    </style>
+</head>
+<body>
+    <center>
+        <h1>12.Flexbox</h1>
+    </center>
+     <div style="
+        display:flex;
+        flex-direction: row;
+        ">
+        <div style="background-color:brown;width:200px;">200px</div>
+        <div style="background-color:yellow;width:75px;">75px</div>
+     </div>
+     <div style="
+       margin-top: 30px;
+       display:flex;
+       flex-direction:row;
+     ">
+        <div style="background-color:brown;width:50px;">item1</div>
+        <div style="background-color:yellow;flex:1;">item2</div>
+        <div style="background-color:brown;width:75px;">item3</div>
+     </div>
+     <div  style="
+       margin-top: 30px;
+       display:flex;
+       flex-direction:row;
+       justify-content: space-between;
+       border-style: solid;
+     ">
+        <div style="background-color:brown;width:100px;">item1</div>
+        <div style="background-color:yellow;width: 100px;">item2</div>
+        <div style="background-color:brown;width: 100px;">item3</div>
+        <div style="background-color:yellow;width:100px;">item4</div>
+     </div>
+     <div  style="
+       margin-top: 30px;
+       display:flex;
+       flex-direction:row;
+       justify-content: space-between;
+       border-style: solid;
+       height:50px;
+       border-color: gray;
+       border-width: 1px;
+       align-items: center;
+     ">
+        <div style="background-color:brown;width:100px;">item1</div>
+        <div style="background-color:yellow;width: 100px;">item2</div>
+     </div>
+     <div class="flexeg">
+        <div class="home">
+            <p>Home</p><button class="btn">14</button>
+        </div>
+        <div class="notify">   
+            <p>Notifications</p><button class="btn">3</button>
+        </div>
+        <div class="msg">    
+            <p>Messages</p><button class="btn">5</button>
+        </div>
+     </div>
+   <div class="pp">      
+    <div class="profile">
+            <img class="icon" src="images/JQGpuF3.jpg">
+         <div class="info">    
+            <p class="pname">Harry Potter</p>
+            <p class="dname">the Actor</p>
+            <p class="pop">popular</p>
+        </div>    
+            <button class="but">Follow</button>
+    </div>
+    <div class="profile">   
+            <img class="icon" src="images/OIP.webp">
+        <div class="info">    
+            <p class="pname">Ron Weasley</p>
+            <p class="dname">the Actor</p>
+            <p class="pop">popular</p>
+        </div>    
+            <button class="but">Follow</button>
+    </div>
+    <div class="profile">     
+            <img class="icon" src="images/R.jpg">
+        <div class="info">    
+            <p class="pname">Hermione Granger</p>
+            <p class="dname">the Actress</p>
+            <p class="pop">popular</p>
+        </div>    
+            <button class="but">Follow</button>
+     </div>
+    </div>  
+    <div class="header">
+        <div class="right-section">
+            <p class="name">Home</p>
+        </div>
+        <div class="middle-section">
+            <input class="bar" type="text" placeholder="Search">
+        </div>
+        <div class="left-section">
+            <button class="down">Download</button>
+        </div>
+    </div>
+</body>
